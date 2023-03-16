@@ -1,0 +1,1439 @@
+@media screen and (max-width:1285px){
+    .prata{
+        padding-left: 0;
+    }
+    .intro-img img{
+        width: 380px;
+    }
+}
+@media screen and (max-width:1280px){
+    .plano-prata{
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 1240px){
+    .intro-txt{
+        padding-left: 5%;
+    }
+    .intro-img img{
+        width: 520px;
+        height: 700px;
+
+    }
+    .caixas-cards{
+        width: 350px;
+        height: 440px;
+    }
+    .caixas-cards img{
+        width: 350px;
+        height: 440px;
+        border-radius: 5px;
+    }
+    .ferramenta-txt{
+        padding-left: 5%;
+    }
+    .ferramenta-img img{
+        width: 520px;
+        height: 1100px;
+    }
+    .prata{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:1195px){
+    .intro-txt{
+        padding-left: 2%;
+    }
+    .intro-img img{
+        width: 500px;
+        height: 700px;
+
+    }
+    .caixas-cards{
+        width: 350px;
+        height: 440px;
+    }
+    .caixas-cards img{
+        width: 350px;
+        height: 440px;
+        border-radius: 5px;
+    }
+    .ferramenta-txt{
+        padding-left: 2%;
+    }
+    .ferramenta-img img{
+        width: 480px;
+        height: 1100px;
+    }
+    .prata{
+        padding-left: 20px;
+    }
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 520px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 520px;
+        height: 478px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:1130px){
+    .intro-img img{
+        width: 480px;
+        height: 700px;
+
+    }
+}
+@media screen and (max-width:1115px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 500px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 500px;
+        height: 478px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:1090px){
+    .intro-img img{
+        width: 460px;
+        height: 700px;
+
+    }
+    .controlador-caixa{
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+    .caixas-cards{
+        width: 310px;
+        height: 420px;
+    }
+    .caixas-cards img{
+        width: 310px;
+        height: 420px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:1080px){
+    
+    .ferramenta-img img{
+        width: 450px;
+        height: 1100px;
+    }
+
+}
+@media screen and (max-width:1070px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 490px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 490px;
+        height: 478px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:1050px){
+    .intro-img img{
+        width: 450px;
+        height: 700px;
+
+    }
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 470px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 470px;
+        height: 478px;
+        background-color: black;
+    
+    }
+    .ferramentas{
+        display: block;
+    }
+    .ferramenta-txt{
+       
+        padding-top: 100px;
+        padding-left: 15%;
+    }
+    
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 180px;
+        height: 700px;
+        position: relative;
+        bottom: 240px;
+        left: 425px;
+    }
+}
+@media screen and (max-width:1035px){
+    nav{
+        display: block;
+        background-color: black;
+        height: 100px;
+    }
+ 
+
+    .logo{
+       display: flex;
+       justify-content: center;
+    }
+
+    .menu{
+        flex: 0;
+        display: none;
+    }
+    label{
+        display: block;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 155px;
+        float: right;
+        color:white;
+        cursor: pointer;
+    }
+    span#burguer:hover{
+        background-color: #acb2ac7d;
+        border-radius: 50%;
+    }
+    .lista-burguer{  
+       border-radius: 15px;
+       display: none;
+       background-color: rgba(83, 81, 81, 0.849);
+       height: 150px;
+       position: absolute;
+       top: 30px;
+       left: 101%;
+    }
+    input[type="checkbox"]:checked ~ .lista-burguer
+    {
+        transform: translateX(-115%);
+        display: block;
+    }
+    .lista-burguer ul{
+        width: 120px;
+        list-style-type: none;
+        border-radius: 30px;
+    
+    }
+    .lista-burguer ul:hover{
+        transform: translate(1.1);
+        transition: all 0.3s;
+    }
+    .lista-burguer li{
+        margin-top: 5px;
+        border-radius: 30px;
+        width: 120px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        color: white;
+    }
+    .lista-burguer li:hover{
+        border: 1px solid #F8AC0F;
+        background-color:  #EB9B15;
+        color: black;
+        font-weight: 600;
+        transform: scale(1.1);
+        transition: all 0.2s;    
+    }
+    .lista-burguer a{
+        text-decoration: none;
+        height: 50px;
+        
+    }
+    input{
+        display: none;
+    }
+    }
+  
+
+@media screen and (max-width:1025px){
+    .introdução{
+        height: 1000px;
+        padding-top: 100px;
+        display: block;
+        background-color: black;
+        background-image: url(/imagens/bolas64x64.png);
+        background-repeat: no-repeat;
+        background-position: 20px 900px;
+    }
+    .intro-txt{
+        color: white;
+        padding-top: 150px;
+        padding-left: 10%;
+        background-image: url(/imagens/bolas64x64.png);
+        background-image: none;
+        background-position: 20px 485px;
+    }
+    
+    .intro-img img{
+        position: absolute;
+        width: 380px;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width:1010px){
+    .assinatura{
+        height: 1200px;
+        background-color: #111111;
+    }
+    .assinatura-txt{
+        padding-top: 50px;
+        padding-left: 10%;
+        font-size: 4rem;
+        color: white;
+    }
+    .planos{
+        margin-top: 50px;
+        display: block;
+    }
+    .prata{
+        padding-left: 10%;
+    }
+    .ouro{
+        padding-left: 10%;
+        padding-top: 20px;
+    }
+    .plano-ouro{
+        padding-left: 50px;
+        width: 490px;
+        height: 478px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:960px){
+    .cards{
+        margin: auto;
+        background-color: white;
+        width: 100%;
+        height: 1600px;
+    }
+    .card-titulo{
+        padding-top: 200px;
+        padding-left: 10%;
+        font-size: 4rem;
+    }
+    .caixas-cards{
+        margin-top: 90px;
+        width: 300px;
+        height: 300px;
+    }
+    .caixas-cards img{
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .controlador-caixa{
+        
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .controlador-caixa a{
+        margin: auto;
+    }
+    .depoimento-img{
+        display: none;
+    }
+    .depoimento-txt{
+        flex: 100%;
+        background-position: 850px 425px;
+    }
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 180px;
+        height: 700px;
+        position: relative;
+        bottom: 240px;
+        left: 375px;
+    }
+
+}
+@media screen and (max-width:900px){
+    footer{
+        height: 900px;
+
+    }
+    .footer-div{
+        flex-direction: column;
+    }
+    .bikcraft{
+        padding-top: 65px;
+        padding-left: 10%;
+       flex: 100%;
+    }
+    .contato{
+        padding-top: 65px;
+       flex: 0%;
+    }
+    .informação{
+        padding-top: 65px;
+        flex: 0%;
+     
+     }
+     .informação p{
+        padding-left: 0;
+     }
+     #lista-info{
+        padding-left: 0;
+    }
+    .direitos{
+        border-top: 0px;
+        width: 45%;
+        color: gray;
+        font-size: larger;
+        padding-top: 400px;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:890px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 140px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:850px){
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 180px;
+        height: 700px;
+        position: relative;
+        bottom: 240px;
+        left: 350px;
+    }
+}
+@media screen and (max-width:810px){
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 180px;
+        height: 700px;
+        position: relative;
+        bottom: 240px;
+        left: 300px;
+    }
+    .intro-img img{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width:770px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 130px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:760px){
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 180px;
+        height: 700px;
+        position: relative;
+        bottom: 220px;
+        left: 280px;
+    }
+
+}
+@media screen and (max-width:740px){
+    .ferramenta-img img{
+        transform: rotate(90deg);
+        border-radius: 10px;
+        width: 150px;
+        height: 600px;
+        position: relative;
+        left: 300px;
+    }
+}
+@media screen and (max-width:720px){
+    .intro-img img{
+        width: 320px;
+    }
+}
+@media screen and (max-width:700px){
+
+        .ferramenta-img img{
+            transform: rotate(90deg);
+            border-radius: 10px;
+            width: 150px;
+            height: 600px;
+            position: relative;
+            left: 280px;
+        }
+    
+}
+@media screen and (max-width:675px){
+    .ferramenta-img{
+        display: none;
+    }
+    .ferramenta-txt{
+        padding-left: 0;
+        padding-left: 20px;
+    }
+    .introdução{
+        height: 700px;
+    }
+    .intro-img{
+        display: none;
+    }
+    .intro-txt{
+        padding-top: 40px;
+
+    }
+    .card-titulo{
+        padding-top: 40px;
+    }
+
+}
+@media screen and (max-width:670px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 120px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:620px){
+    .pg-depoimento{
+        width: 530px;
+        height: 200px;
+        padding-left: 30px;
+        margin-left: 5px ;
+        margin-top: 200px;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 40px;
+        font-style: italic;
+        font-family: "Merriweather", serif;
+        background-image: url(/imagens/sinal-de-aspas-a-esquerda.png), url(/imagens/aspabaixo.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position:0px 0px, 110px 170px;
+      
+    }
+    .titulo-parceiros{
+        padding-top: 20px;
+    }
+    .parceiros{
+        height: 950px;
+    }
+    .patrocinio{
+        width: 200px;
+        grid-template-columns: 1fr ;       
+    }
+    .patrocinio li{
+        border-left: 0px;
+        border-bottom: 1px solid #9C9C9C;
+    }
+    .patrocinio li:nth-child(8){
+        border-bottom: 0;
+    }
+    .topo{
+        border-top: 0px;
+    }
+    .pg2-depoimento{
+        margin-left: 30px;
+    }
+   
+}
+@media screen and (max-width:605px){
+    .intro-txt{
+        padding-left: 5%;
+    }
+    .intro-txt h1{
+        font-size: 3rem;
+
+    }
+    .intr0-txt p{
+        font-size: 16px;
+
+    }
+    .ferramentas{
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+    .icons{
+        display: block;
+    }
+    .rastreador{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .txt-ferramenta{
+        font-size: 3rem;
+
+    }
+    .pg2-ferramenta{
+        font-size: 16px;
+
+    }
+    .pg-depoimento{
+        margin-top: 50px;
+        width: 380px;
+        height: 300px;
+        font-size: 1.5rem;
+        background-position:0px 0px, 105px 200px;
+    }
+    .assinatura-txt{
+        padding-top: 50px;
+        padding-left: 5%;
+        font-size: 3rem;
+        color: white;
+    }
+    .pg2-depoimento{
+        margin-top: 10px;
+    }
+    .card-titulo{
+        font-size: 3rem;
+        padding-left: 20px;
+    }
+    .assinatura h1{
+        
+        font-size: 3rem;
+    }
+    .titulo-parceiros{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:580px){
+    .assinatura{
+        height: 1125px;
+        background-color: #111111;
+    }
+    .assinatura-txt{
+        padding-top: 50px;
+        padding-left: 10%;
+        font-size: 4rem;
+        color: white;
+    }
+    .planos{
+        margin-top: 50px;
+    }
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 440px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 440px;
+        height: 475px;
+        background-color: black;
+    
+    }
+ 
+    .prata-titulos{
+      display: flex;
+    }
+    .prata-titulos h1{
+        padding-top: 30px;
+        color: #ACB2AC;
+     flex: 50%;
+    }
+    .prata-titulos .pratas{
+     flex: 50%;
+     color: white;
+    }
+    .prata-titulos h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+    }
+    .pratas h2{
+        font-size: xx-large;
+        text-transform: uppercase;
+    }
+    .pratas p{
+        color: #ACB2AC;
+    }
+    .pratas{
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+    .ouro-titulos{
+      display: flex;
+    }
+    
+    .ouro-titulos h1{
+        padding-top: 30px;
+        color: #EB9B15;
+     flex: 50%;
+    }
+    .ouro-titulos .ouros{
+        color: white;
+    
+     flex: 50%;
+    }
+    .ouro-titulos h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+    }
+    .ouros h2{
+        font-size: xx-large;
+      text-transform: uppercase;
+    }
+    .ouros p{
+        color: #ACB2AC;
+    }
+    .ouros{
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+    .lista{
+        padding-top: 20px;
+        list-style: none;
+    }
+    .lista li{
+        font-size: 20px;
+        list-style-image: url(/imagens/check.png) ;
+        line-height: 35px;
+        color: white;
+    }
+    
+    .links-assinatura{
+        text-decoration: none;
+    }
+    .botao-prata{
+        margin-top: 25px;    
+        border-radius: 5px;
+        background-color: #292929;
+        height: 70px;
+        width: 180px;
+        text-decoration: none;
+        padding: 25px;
+    }
+    .botao-prata:hover{
+        background-color: #404040;
+    }
+    .botao-prata a{
+     text-decoration: none;
+    }
+    .botao-prata p{
+      color: white;
+      text-transform: uppercase;
+      font-size: larger;
+      font-weight: 600;
+    }
+    
+    .botao-ouro{
+        margin-top: 25px;
+        border-radius: 5px;
+        background-color: #F8AC0F;
+        height: 70px;
+        width: 200px;
+        text-decoration: none;
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+    .botao-ouro:hover{
+        background-color: #EB9B15;
+    }
+    .botao-ouro a{
+     text-decoration: none;
+    }
+    .botao-ouro p{
+        color: #111111;
+        text-transform: uppercase;
+        font-size: larger;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:570px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 110px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:516px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 380px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 380px;
+        height: 475px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:470px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 100px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:451px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 360px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 360px;
+        height: 475px;
+        background-color: black;
+    
+    }
+    .menu{
+        display: none;
+    }
+    .ferramenta-txt{
+        padding-left: 0px;
+    }
+    p .pg1-ferramenta{
+        width: 300px;
+
+    }
+    h1 .txt-ferramenta{
+        width: 380px;
+
+    }
+    a .a-ferramenta{
+        width: 380px;
+
+    }
+    p .pg2-ferramenta{
+        width: 50px;
+    }
+
+}
+@media screen and (max-width:425px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 340px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 340px;
+        height: 475px;
+        background-color: black;
+    
+    }
+    .depoimento-txt{
+        width: 364px;
+    }
+    .pg-depoimento{
+        width: 300px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:405px){
+
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 320px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 320px;
+        height: 475px;
+        background-color: black;
+    
+    }
+    .prata{
+        padding-left: 10px;
+
+    }
+    .ouro{
+        padding-left: 10px;
+
+    }
+}
+@media screen and (max-width:350px){
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 300px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 300px;
+        height: 475px;
+        background-color: black;
+    
+    }
+}
+@media screen and (max-width:385px){
+    .txt-ferramenta{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:360px){
+    .titulo-parceiros{
+        padding-left: 20px;
+        font-size: 3rem;
+    }
+    .plano-prata{
+        margin-top: 40px;
+        padding-left: 50px;
+        width: 280px;
+        height: 390px;
+        background-color: black;
+    
+    }
+    
+    .plano-ouro{
+        padding-left: 50px;
+        width: 280px;
+        height: 475px;
+        background-color: black;
+    
+    }
+    .pratas{
+        padding-left: 0;
+    }
+    .ouros{
+        padding-left: 0;
+    }
+    .plano-prata{
+        padding-left: 20px;
+
+    }
+    .plano-ouro{
+        padding-left: 20px;
+
+    }
+}
+@media screen and (max-width:370px){
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 90px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:325px){
+    .pg-depoimento{
+
+    }
+    .pg-depoimento{
+        width: 250px;
+        margin: 0;
+    }
+}
+@media screen and (max-width:320px){
+    .ferramenta-txt{
+        width: 100%;
+    }
+    .caixas-cards{
+        width: 250px;
+        height: 250px;
+
+    }
+    .caixas-cards img{
+        width: 250px;
+        height: 250px;
+
+    }
+    .pg-depoimento{
+        padding-left: 0;
+        width: 100%;
+    }
+    .pg2-depoimento{
+        margin-left: 0;
+        width: 100%;
+    }
+    .introdução{
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:307px){
+  .plano-ouro{
+    width: 200px;
+    height: 490px;
+  }
+  .plano-prata{
+    height: 430px;
+    width: 200px;
+
+  }
+  .assinatura{
+    background-color:#111111;
+  }
+  .prata-titulos{
+    display: block;
+  }
+  .ouro-titulos{
+    display: block;
+  }
+  .lista li{
+    font-size: 16px;
+  }
+  .botao-ouro{
+    width: 140px;
+    padding-left: 25px;
+    margin-left: 10px;
+
+  }
+  .botao-ouro p{
+    font-size: 14px;
+
+  }
+  .botao-prata{
+    width: 140px;
+    padding-right: 0px;
+    padding-left: 20px;
+    margin-left: 10px;
+
+  }
+  .botao-prata p{
+    font-size: 14px;
+  }
+  .ouro{
+    padding-top: 30px;
+  }
+
+}
+@media screen and (max-width:300px){
+    .direitos{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:290px){
+    .intro-txt
+    p .botao-ferramenta{
+        font-size: 1rem;
+    }
+    .a-ferramenta .botao-ferramenta{
+        font-size: 1rem;
+    }
+    .caixas-cards{
+        width: 200px;
+        height: 200px;
+    }
+    .caixas-cards img{
+        width: 200px;
+        height: 200px;
+    }
+    .caixas-cards{
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width:287px){
+
+
+    .botao-ferramenta{
+        width: 180px;
+    }
+}
+@media screen and (max-width:275px){
+    .pg2-depoimento{
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width:270px){
+    .pg2-depoimento{
+        margin-top: 50px;
+    }
+    .ferramentas{
+        height: 1400px;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 80px;
+        float: right;
+        color:white;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:269px){
+    .titulo-parceiros{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:255px){
+    .intro-txt h1{
+        font-size: 2rem;
+    }
+    .assinatura h1{
+        font-size: 2rem;
+    }
+    .card-titulo{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width:335px){
+    .txt-ferramenta{
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width:235px){
+    .ouro{
+        padding-left: 5px;
+
+    }
+    .prata{
+        padding-left: 5px;
+
+    }
+}
+@media screen and (max-width:230px){
+    .intro-botao{
+        width: 150px;
+    }
+    .intro-botao p{
+        font-size: 14px;
+        padding-left: 18px;
+    }
+}
+@media screen and (max-width:225px){
+    .ouro{
+        padding-left: 0px;
+
+    }
+    .prata{
+        padding-left: 0px;
+
+    }
+}
+@media screen and (max-width:220px){
+    .ferramentas{
+        height: 1600px;
+    }
+    .caixas-cards{
+        width: 150px;
+        height: 150px;
+    }
+    .caixas-cards img{
+        width: 150px;
+        height: 150px;
+    }
+    .plano-ouro{
+        width: 180px;
+        height: 550px;
+        
+
+    }
+    .plano-prata{
+        height: 490px;
+    width: 180px;
+   
+
+    }
+    .botao-prata{
+        height: 50px;
+        width: 100px;
+       padding: 0;
+       padding-left: 10px;
+       padding-top: 15px;
+    }
+    .botao-prata p{
+        font-size: 12px;
+
+    }
+    .botao-ouro{
+        height: 50px;
+        width: 100px;
+       padding: 0;
+       padding-left: 10px;
+       padding-top: 15px;
+
+    }
+    .botao-ouro p{
+        font-size: 12px;
+    }
+    .assinatura{
+        height: 1300px;
+    }
+    .lista li{
+        width: 100%;
+    }
+   .patrocinio{
+    width: 100%;
+   }
+   .cards{
+    height: 1400px;
+   }
+
+}
+@media screen and (max-width:210px){
+    .contato p{
+        font-size: initial;
+    }
+    .informação p{
+        font-size: initial;
+
+    }
+    .lista-footer{
+        font-size: 16px;
+    }
+    .bikcraft{
+        padding-left: 0;
+    }
+    .a-ferramenta .botao-ferramenta {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+}
+@media screen and (max-width:200px){
+    .pg2-depoimento{
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width:197px){
+    .plano-ouro{
+        height:640px ;
+        width: 150px;
+
+    }
+    .plano-prata{
+        height: 540px;
+        width: 150px;
+
+    }
+    .assinatura{
+        height: 1500px;
+    }
+    .logo{
+        justify-content: initial;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 60px;
+        float: right;
+        color:white;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:190px){
+    .titulo-parceiros{
+        font-size: 1.5rem;
+    }
+    .logo{
+        padding: 0;
+    }
+    .a-ferramenta .botao-ferramenta{
+        width: 145px;
+        font-size: 0.6rem;
+    }
+    .txt-ferramenta{
+        font-size: 1rem;
+    }
+    .intro-botao{
+        width: 100px;
+    }
+    .intro-botao p{
+        font-size: 10px;
+        padding-left: 8px;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 30px;
+        float: right;
+        color:white;
+        cursor: pointer;
+
+    }
+    
+}
+@media screen and (max-width:185px){
+    footer{
+        height: 1025px;
+    }
+    .imagens-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .direitos{
+        padding-top: 520px;
+    }
+}
+@media screen and (max-width:175px){
+    .plano-ouro{
+        height:640px ;
+        width: 130px;
+
+    }
+    .plano-prata{
+        height: 540px;
+        width: 130px;
+
+    }
+    .assinatura{
+        height: 1700px;
+    }
+    .botao-ouro{
+        margin-left: 0;
+    }
+    .botao-prata{
+        margin-left: 0;
+    }
+    .lista-footer li{
+        font-size: 10px;
+    }
+    .pg1-ferramenta{
+        font-size: 16px;
+    }
+    .caixas-cards{
+        width: 120px;
+        height: 120px;
+    }
+    .caixa-cards img{
+        width: 120px;
+        width: 120px;
+    }
+    .card-txt{
+        padding-left: 0;
+    }
+    .card-pg{
+        padding-left: 0;
+    }
+    .controlador-caixa a{
+        margin: 0;
+    }
+    .a-ferramenta .botao-ferramenta{
+        width: 120px;
+        font-size: 0.6rem;
+    }
+    .intro-txt h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:170px){
+    .ferramentas{
+        height: 1750px;
+    }
+    .caixas-cards{
+        width: 120px;
+        height: 120px;
+    }
+    .caixas-cards img{
+        width: 120px;
+        width: 120px;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 25px;
+        float: right;
+        color:white;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:165px){
+    .direitos{
+        font-size: 10px;
+    }
+    .pg2-depoimento{
+        margin-top: 130px;
+    }
+    .card-titulo{
+        padding-left: 0;
+        font-size: 1.5rem;
+    }
+    .assinatura-txt{
+        padding-left: 0;
+        font-size: 1.5rem;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .bikcraft img{
+        width: 100px;
+    }
+    .titulo-parceiros{
+        padding-left: 0;
+    }
+    .introdução{
+        height: 750px;
+    }
+}
