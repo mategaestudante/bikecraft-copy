@@ -1,0 +1,627 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.logo{
+ flex: 50%;
+ padding: 10%;
+ padding-top: 30px;
+ 
+}
+.menu{
+ flex: 50%;
+ margin-top: 35px;
+ padding-left: 19%;
+
+}
+.menu a{
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+  a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-bottom: 2px solid white;
+    transition: width 0.3s;
+  }
+ .menu a:hover::after {
+    width: 100%;
+    height: 3px;
+    transition: width 0.3s;
+  }
+  
+  .menu a + a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    border-bottom: 2px solid white;
+    transition: width 0.3s;
+  }
+  
+  .menu a + a:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  label{
+    display: none;
+}
+span#burguer{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+.lista-burguer{  
+   border-radius: 15px;
+   display: none;
+   background-color: rgba(83, 81, 81, 0.849);
+   height: 180px;
+   position: absolute;
+   top: 20px;
+   left: 101%;
+}
+input[type="checkbox"]:checked ~ .lista-burguer
+{
+    transform: translateX(-115%);
+}
+.lista-burguer ul{
+    width: 120px;
+    list-style-type: none;
+    border-radius: 30px;
+
+}
+.lista-burguer li{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+}
+.lista-burguer li:hover{
+    border: 1px solid #180f4a;
+    background-color:  #222245;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s;    
+}
+.lista-burguer a{
+    text-decoration: none;
+    height: 50px;
+    
+}
+input{
+    display: none;
+}
+ 
+
+.introdução{
+    height: 700px;
+    padding-top: 100px;
+    display: flex;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.intro-txt{
+    color: white;
+    padding-top: 150px;
+    padding-left: 10%;
+    flex: 50%;
+    background-image: url(/imagens/bolas64x64.png);
+    background-repeat: no-repeat;
+    background-position: 20px 485px;
+}
+.intro-img{
+    flex: 50%;
+ 
+}
+
+.intro-img img{
+    position: absolute;
+    width: 560px;
+    height: 700px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.intro-txt h1{
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 4rem;
+    line-height: 1.125;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    
+}
+.ponto{
+    color: #F8AC0F;
+}
+.intro-txt p{
+    color: #ACB2AC;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.intro-botao{
+    margin-top: 20px;
+    background-color: #F8AC0F;
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+}
+.intro-botao:hover{
+    background-color: #EB9B15;
+}
+
+.intro-botao p{
+    padding-top: 15px;
+    padding-left: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.introdução a{
+    text-decoration: none;
+}
+
+
+.cards{
+    background-color: white;
+    width: 100%;
+    height: 1100px;
+}
+.card-titulo{
+    padding-top: 120px;
+    padding-left: 10%;
+    font-size: 4rem;
+}
+.caixas-cards{
+    width: 445px;
+    height: 500px;
+}
+.caixas-cards:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.controlador-caixa{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.controlador-caixa a{
+    text-decoration: none;
+}
+.controlador-caixa h2{
+    color: black;
+}
+.caixas-cards img{
+    width: 445px;
+    height: 500px;
+    border-radius: 5px;
+}
+.card-txt{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+.card-pg{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: gray;
+}
+.ferramentas{
+    display: flex;
+    width: 100%;
+    height: 950px;
+    background-color: black;
+}
+.ferramenta-txt{
+    flex: 55%;
+    padding-top: 100px;
+    padding-left: 15%;
+}
+.pg1-ferramenta{
+   color: #ACB2AC;
+   font-size: 23px;
+   font-weight: 500px;
+}
+.txt-ferramenta{
+    padding-top: 25px;
+  color: white;
+  font-weight: 600;
+  font-stretch: normal;
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: 'Poppins', sans-serif;
+}
+.pg2-ferramenta{
+    padding-top: 25px;
+  color: #ACB2AC;
+  line-height: 35px;
+  font-size: 24px;
+}
+.ferramenta-img{
+    flex: 45%;
+}
+.ferramenta-img img{
+    border-radius: 5px;
+    position: relative;
+    bottom: 75px;
+    width: 550px;
+    height: 1100px;
+}
+
+.botao-ferramenta{
+    margin-top: 25px;
+    color: #EB9B15;
+    width: 270px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.botao-ferramenta:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+.a-ferramenta{
+    text-decoration: none;
+}
+
+.icons{
+    margin-top: 60px;
+    display: flex;
+}
+.rastreador{
+    margin-left: 30px
+}
+.txt-icon{
+  color: white;
+  font-size: 20px;
+}
+.pg-icon{
+    padding-top: 10px;
+    color:#ACB2AC;
+    line-height: 25px;
+}
+.parceiros{
+    width: 100%;
+    height: 650px;
+}
+.titulo-parceiros{
+    padding-top:150px ;
+    padding-left: 10%;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 4rem;
+    line-height: 1.125;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.patrocinio{
+    display: grid;
+    padding: 0 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+.patrocinio li{
+    display: flex;
+    padding: 32px;
+    border-left: 1px solid #9C9C9C;
+}
+.patrocinio img{
+    max-width: 100%;
+}
+.patrocinio li:first-child, .patrocinio li:nth-child(5) {
+    border-left: none;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.topo{
+    border-top: 1px solid #9C9C9C;
+}
+#wildbeast{
+    
+}
+.depoimento{
+    display: flex;
+    height:  500px;
+}
+.depoimento-img{
+    flex: 50%;
+}
+.depoimento-img img{
+    width: 737px;
+    height: 500px;
+    max-width: 100%;
+}
+.depoimento-txt{
+    flex: 50%;
+    background-color: #F8AC0F;
+    background-image: url(/imagens/bolasempreto64x64-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 625px 400px;
+    
+}
+.pg-depoimento{
+    width: 530px;
+    height: 200px;
+    padding-left: 30px;
+    margin-left: 70px ;
+    margin-top: 200px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 40px;
+    font-style: italic;
+    font-family: "Merriweather", serif;
+    background-image: url(/imagens/sinal-de-aspas-a-esquerda.png), url(/imagens/aspabaixo.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position:0px 0px, 110px 170px;
+  
+}
+
+.pg2-depoimento{
+    background-repeat: no-repeat;
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+    color: #664400;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.assinatura{
+    height: 700px;
+    background-color: #111111;
+}
+.assinatura-txt{
+    padding-top: 50px;
+    padding-left: 10%;
+    font-size: 4rem;
+    color: white;
+}
+.planos{
+    margin-top: 50px;
+    display: flex;
+}
+.prata{
+    padding-left: 10%;
+    flex: 50%;
+}
+.ouro{
+   
+    flex: 50%;
+}
+.plano-prata{
+    margin-top: 40px;
+    padding-left: 50px;
+    width: 560px;
+    height: 390px;
+    background-color: black;
+
+}
+
+.plano-ouro{
+    padding-left: 50px;
+    width: 560px;
+    height: 478px;
+    background-color: black;
+
+}
+.prata-titulos{
+  display: flex;
+}
+.prata-titulos h1{
+    padding-top: 30px;
+    color: #ACB2AC;
+ flex: 50%;
+}
+.prata-titulos .pratas{
+ flex: 50%;
+ color: white;
+}
+.prata-titulos h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.pratas h2{
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.pratas p{
+    color: #ACB2AC;
+}
+.pratas{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.ouro-titulos{
+  display: flex;
+}
+
+.ouro-titulos h1{
+    padding-top: 30px;
+    color: #EB9B15;
+ flex: 50%;
+}
+.ouro-titulos .ouros{
+    color: white;
+
+ flex: 50%;
+}
+.ouro-titulos h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.ouros h2{
+    font-size: xx-large;
+  text-transform: uppercase;
+}
+.ouros p{
+    color: #ACB2AC;
+}
+.ouros{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.lista{
+    padding-top: 20px;
+    list-style: none;
+}
+.lista li{
+    font-size: 20px;
+    list-style-image: url(/imagens/check.png) ;
+    line-height: 35px;
+    color: white;
+}
+
+.links-assinatura{
+    text-decoration: none;
+}
+.botao-prata{
+    margin-top: 25px;    
+    border-radius: 5px;
+    background-color: #292929;
+    height: 70px;
+    width: 180px;
+    text-decoration: none;
+    padding: 25px;
+}
+.botao-prata:hover{
+    background-color: #404040;
+}
+.botao-prata a{
+ text-decoration: none;
+}
+.botao-prata p{
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.botao-ouro{
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #F8AC0F;
+    height: 70px;
+    width: 200px;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.botao-ouro:hover{
+    background-color: #EB9B15;
+}
+.botao-ouro a{
+ text-decoration: none;
+}
+.botao-ouro p{
+    color: #111111;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+}
+footer{
+    background-color: black;
+    height: 500px;
+}
+.footer-div{
+    display: flex;
+    height: 400px;
+}
+.bikcraft{
+    padding-top: 65px;
+    padding-left: 10%;
+   flex: 30%;
+}
+.bikcraft p{
+    color: white;
+}
+.contato{
+    padding-top: 65px;
+   flex: 25%;
+}
+.contato p{
+    font-size: x-large;
+    text-transform: uppercase;
+    color: white;
+}
+.informação{
+   padding-top: 65px;
+   flex: 45%;
+
+}
+.informação p{
+    padding-left: 60px;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: white;
+
+}
+.lista-footer{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #ACB2AC;
+    list-style: inside;
+    list-style-type: none;
+}
+.lista-footer li{
+    color: #ACB2AC;
+    line-height: 40px;
+}
+.border-bottom{
+    border-bottom: 3px solid #111111;
+    width: 80%;
+}
+.links-footer{
+    text-decoration: none;
+}
+.hover:hover{
+  color: white;
+}
+#branco:hover{
+    color: white;
+}
+.imagens-icons img{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.direitos{
+    border-top: 3px solid #111111;
+    width: 45%;
+    color: gray;
+    font-size: larger;
+    padding-left: 10%;
+}
+#lista-info{
+    padding-left: 60px;
+}
+#border-left{
+    border-left: 3px solid #111111;
+    height: 50%;
+}
